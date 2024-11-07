@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:wght@500&family=Titan+One&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: marmelad;
+}
+
+h1 {
+    color: wheat;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: rgb(171, 61, 61);
+}
+
+.waarom h3 {
+    color: wheat;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f5deb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+header img {
+    width: 150px;
+    padding: 0.3em 0em;
+}
+
+
+main {
+    padding: 5em 1em 5em 1em;
+    min-height: 100vh;
+    background-color: #ab3d3d;
+}
+
+.vakje1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    background-color: wheat;
+    width: 180px;
+    padding: 15px;
+    border-radius: 100px;
+    text-align: center;
+    height: 80px;
+}
+
+.onderkant {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vakje2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: wheat;
+    width: 180px;
+    padding: 15px;
+    border-radius: 100px;
+    text-align: center;
+    height: 80px;
+}
+
+footer nav ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 5em;
+    max-height: 3em;
+
+}
+
+footer li {
+    /* display: flex; */
+    list-style: none;
+}
+
+footer img {
+    width: 33px;
+    height: 33px;
+    display: flex;
+}
+
+footer li:nth-child(2) img{
+    width: 3em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: wheat;
+    margin-top: 1em;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+article ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+article ul {
+    margin: 3px 0;
+}
+
+.producten-section  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.producten-section article {
+    flex: 1 1 calc(50% - 20px);
+    text-align: center;
+}
